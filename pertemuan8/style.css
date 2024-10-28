@@ -1,0 +1,66 @@
+div.box{
+    background: bisque;
+    height: 200px;
+    width: 300px;
+}
+
+div.box p{
+    background: rgb(49, 109, 48);
+    height: 75%;
+    width: 75%;
+}
+
+/* max dan min ukuran */
+
+td{
+    background-color: aqua;
+}
+
+td.deskripsi{
+    min-width: 500px;
+    max-width: 600px;
+    background: darkorange;
+}
+h2,h3{
+    color: blue;
+}
+
+/* overflow */
+p.satu{
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+}
+p.dua{
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+}
+
+div.box3{
+    width: fit-content;
+    height: fit-content;
+    background-color: bisque;
+    padding: 20px;
+
+}
+p.hello{
+    background-color: coral;
+    /* membuat border */
+    border: 4px solid #0088dd;
+    border-radius: 10px;
+    /* margin */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /* padding */
+    padding: 20px 20px 20px 20px;
+    
+
+
+}
+
+
+
+

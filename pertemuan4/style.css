@@ -1,0 +1,10 @@
+
+#tommy{
+    background-color: rgb(252, 252, 251);
+    color: white;
+}
+#tommy:hover{
+    width: 300px;
+    background-image: url("gambar.jpg");
+    color: red
+}

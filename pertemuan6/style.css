@@ -1,0 +1,49 @@
+h1{
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+    word-spacing: 0.5em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-shadow: 5px 5px 5px green;
+
+}
+p.credit{
+    font-family: Verdana;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 75%;
+}
+.tautan{
+    font-family: Verdana;
+    text-decoration: none;
+
+}
+
+.tautan:visited{
+    color: black;
+}
+
+.tautan:hover{
+    color: red;
+}
+/* .tautan:active{
+    color: blue;
+} */
+
+
+p.intro{
+    font-family: Arial;
+    text-indent: 20px;
+    font-size: 1.1em;
+    text-align: justify;
+}
+p.intro::first-letter{
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
