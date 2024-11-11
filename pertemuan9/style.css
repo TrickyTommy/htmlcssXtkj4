@@ -1,6 +1,6 @@
 h1.border-1{
     border: 2px solid red;
-    border-bottom-width: 7px;
+    border-bottom-width: 10px;
 }
 
 p#atas-solid{
@@ -13,3 +13,28 @@ p#kiri-double{
     border-left-width: 4px;
     border-left-style: double;
 }
+h1.border2{
+    border-color: blue;
+    border-style: solid;
+    /* seluruhnya sama */
+    border-width: 10px;
+}
+
+h1.border3{
+    border-color: aqua;
+    border-style: solid;
+    /* atas bawah dan kiri kanan */
+    border-width: 20px 5px;
+}
+h1.border4{
+    border-color: rgb(223, 10, 198);
+    border-style: solid;
+    /* atas, kanan,bawah,kiri */
+    border-width: 5px 10px 15px 20px;
+}
+
+
+
+
+
+
