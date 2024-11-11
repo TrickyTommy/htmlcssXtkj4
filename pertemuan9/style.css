@@ -1,0 +1,15 @@
+h1.border-1{
+    border: 2px solid red;
+    border-bottom-width: 7px;
+}
+
+p#atas-solid{
+    border-top-width: 4px;
+    border-top-style: solid;
+}
+
+p#kiri-double{
+    border-color: purple;
+    border-left-width: 4px;
+    border-left-style: double;
+}
