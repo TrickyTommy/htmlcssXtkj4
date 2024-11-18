@@ -1,0 +1,18 @@
+span{
+    background: orange;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+
+}
+span.inline{
+    display: inline;
+}
+span.block{
+    display: block;
+}
+span.inline-block{
+    display: inline-block;
+}
