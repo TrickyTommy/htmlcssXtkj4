@@ -1,0 +1,37 @@
+.header{
+    background-color: cornflowerblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-title{
+    color: cornsilk;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header:hover{
+    background-color: cadetblue;
+}
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.box{
+    width: 300px;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 10px;
+}
+.box-judul{
+	font-size:1.2em;
+	height:60px;
+	font-weight: bold;
+}
+div.box:hover{
+    background-color: bisque;
+}

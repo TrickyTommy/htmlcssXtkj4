@@ -1,4 +1,4 @@
-span{
+ span{
     background: orange;
     width: 100px;
     height: 100px;
@@ -15,4 +15,20 @@ span.block{
 }
 span.inline-block{
     display: inline-block;
+}
+
+div.flex-container{
+    background-color: aqua;
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.flex-item{
+    background: orange;
+    width: 100px;
+    height:100px;
+    margin: 10px;
+    display: flex;
 }
